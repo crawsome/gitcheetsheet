@@ -6,11 +6,11 @@ Although it's not in any perfect order, or is the "Best practices" which require
 ...this still may be somewhat helpful to you. 
 
 
-### 1. install that shit
+### 1. install Git
 
     sudo apt-get install git
 
-### 2. configure that shit. 
+### 2. configure Git 
 
     git config --global user.name "github_username"
 
