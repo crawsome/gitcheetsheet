@@ -1,10 +1,5 @@
 ## Disclaimer
-This is not a good guide. This is my guide that I use to push my stuff up from other PCs.
-
-Although it's not in any perfect order, or is the "Best practices" which require lots of wherewithall...
-
-...this still may be somewhat helpful to you. 
-
+This is not an inclusive guide. This is my guide that I use to push my stuff up from other PCs. If it helps you, great!
 
 ### 1. install Git
 
@@ -26,7 +21,6 @@ Make it in MARKDOWN format (hence the .md extension)
 
     nano README.md
     
-
 ### IS the SSH agent running?
 
     ps -e | grep [s]sh-agent 
