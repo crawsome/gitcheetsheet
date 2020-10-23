@@ -43,7 +43,7 @@ Make it in MARKDOWN format (hence the .md extension)
 
 ### After you made your new repo from github.com, put it here (If HTTPS)
 
-    git add remote orgin https://github.com/username/repo.git
+    git remote add orgin https://github.com/username/repo.git
 
 ### Add the repo to your session (IF SSH)
 
