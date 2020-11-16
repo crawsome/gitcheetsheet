@@ -23,7 +23,7 @@ If there's files in there already, just run this. **Note the capital A for "All"
     
 Use this command any time to check your git settings
 
-cat .git/config
+```cat .git/config```
 
 4. Be nice and make a README 
 
