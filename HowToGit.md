@@ -33,7 +33,7 @@ Write some stuff in it. It's in markdown (.md) format, like this doc you're read
 
 Nifty command to just make a local readme with some contents. 
 
-```echo #__\n Repository for __ ##Description\nShort Description\n##How To Use```
+```printf #PROJECTNAME\n Repository for PROJECTNAME ##Description\nShort Description\n##How To Use > README.md```
 
 5. After you made your new repo from github.com, put it here (If HTTPS)
 
