@@ -37,11 +37,11 @@ This is not an inclusive guide. This is my guide that I use to push my stuff up 
 
 5. After you made your new repo from github.com, put it here (If HTTPS)
 
-        ```git remote add orgin https://github.com/username/repo.git```
+    ```git remote add orgin https://github.com/username/repo.git```
 
 6. Add the repo to your session (IF SSH)
 
-        ```git remote add origin git@github.com:username/repo.git```
+    ```git remote add origin git@github.com:username/repo.git```
 
     * If you typo, or add the wrong origin
 
@@ -49,7 +49,7 @@ This is not an inclusive guide. This is my guide that I use to push my stuff up 
 
 7. Before commit, checks the file repo for all changes, and commits them. 
 
-        ```git commit -a```
+    ```git commit -a```
 
     * But shit, you have to add a message somewhere in it. It doesn't tell you where, so just to do this. 
 
@@ -57,7 +57,7 @@ This is not an inclusive guide. This is my guide that I use to push my stuff up 
 
 8. Push your changes to your github repo with this
 
-        ```git push -u origin master```
+    ```git push -u origin master```
 
     * Force push if other one does not work.
 
@@ -67,7 +67,7 @@ This is not an inclusive guide. This is my guide that I use to push my stuff up 
 
 1. IS the SSH agent running?
 
-        ```ps -e | grep [s]sh-agent``` 
+    ```ps -e | grep [s]sh-agent``` 
 
     * If not, start it
 
@@ -75,7 +75,7 @@ This is not an inclusive guide. This is my guide that I use to push my stuff up 
 
 2. Add your credentials (provided you already made one with ssh-keygen)
 
-        ```ssh-add ~/.ssh/id_rsa``` 
+    ```ssh-add ~/.ssh/id_rsa``` 
 
     * If you want to list your local credentials
 
