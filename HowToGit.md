@@ -57,9 +57,9 @@ This is not an inclusive guide. This is my guide that I use to push my stuff up 
 
 8. Push your changes to your github repo with this
 
-    ```git push -u origin master```
+    ```git push```
 
-    * Force push if other one does not work.
+    * Force push if other one does not work. (Potentially dangerous if done in shared spaces / in an environment that isn't using rebases)
 
         ```git push -f origin master```
     
